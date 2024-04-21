@@ -1,0 +1,44 @@
+{
+  "name": "a127-example-project",
+  "version": "0.0.1",
+  "private": "true",
+  "description": "Apigee 127 Sample Project",
+  "keywords": [
+    "apigee",
+    "a127"
+  ],
+  "author": "Scott Ganyo <sganyo@apigee.com>",
+  "license": "MIT",
+  "main": "app.js",
+  "dependencies": {
+    "underscore": "",
+    "express": "",
+    "twit": "",
+    "a127-magic": "^0.7.0",
+    "volos-analytics-apigee": "",
+    "volos-analytics-common": "",
+    "volos-analytics-memory": "",
+    "volos-cache-apigee": "",
+    "volos-cache-memory": "",
+    "volos-cache-redis": "",
+    "volos-quota-apigee": "",
+    "volos-quota-memory": "",
+    "volos-quota-redis": "",
+    "volos-oauth-redis": "",
+    "volos-oauth-apigee": ""
+  },
+  "devDependencies":  {
+    "volos-management-apigee": "",
+    "should": "4.4.x",
+    "supertest": "0.15.x"
+  },
+  "scripts" : {
+    "start" : "node app.js"
+  },
+  "api": {
+    "name": "a127-example",
+    "basePath": "/a127",
+    "docsPath": "/docs",
+    "main": "app.js"
+  }
+}
