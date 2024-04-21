@@ -1,4 +1,4 @@
-# Please go thorugh this before you start looking into the project
+# Please go through this before you start looking into the project
 
 In this guide, you'll swiftly set up and run a sample Apigee 127 API project, which serves as a proxy for the Twitter search API.
 
